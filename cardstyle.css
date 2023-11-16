@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+   max-width: 100%;
+}
+.wrap{
+    background:#1B2F4D;
+    max-width: 100%;
+    height: 465px;
+    padding-left:65px;
+    padding-top: 95px;
+}
+.vertical{
+    writing-mode: vertical-lr;
+    float: left;
+    color: #FFB000;
+    font-weight: bold;
+}
+.eng{
+    font-size: 45px;
+    padding-top: 5%;
+    padding-right: 30px;
+    padding-left: 20%;
+}
+.ch{
+    font-size: 15px;
+    letter-spacing: 10px;
+    padding-top: 6%;
+    padding-right: 50px;
+}
+
+.card{
+    margin-top: 6%;
+    width: 360px;
+    height: 210px;
+    background: #ededed;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    float: left;
+}
+.card h1{
+    letter-spacing: 1em;
+    color: #1B2F4D;
+    position: absolute;
+    top:42%;
+    left: 20%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img{
+    width: 95px;
+}
+
+.infer{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #1B2F4D;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.hexbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 240px;
+    
+    border-radius: 20px;
+   overflow: hidden;
+}
+.hex,.hex2,.hex3{
+    position:relative;
+    height:0;
+    border-style:solid;
+    
+}
+.hex:before,.hex2:before,.hex3:before{
+    position:absolute;
+    content:"";  
+    height:0;
+    background:none;
+    border-style:solid;    
+    
+}
+.hex{
+    border-color:transparent transparent #1B2F4D;
+    width:40px;
+    top:85px;
+    right: 0px;
+    border-width:0 20px 35px;
+}
+.hex:before{
+    border-color:#1B2F4D transparent transparent;
+    top:34px;
+    left:-20px;
+    width:40px;
+    border-width:35px 20px 0;
+}
+.hex2{
+    border-color:transparent transparent #93a6c2;
+    width:75px;
+    top:-50px;
+    right: -50px;
+    border-width:0 37px 66px;
+}
+.hex2:before{
+    border-color:#93a6c2 transparent transparent;
+    top:65px;
+    left:-37px;
+    width:75px;
+    border-width:66px 37px 0;
+}
+.hex3{
+    border-color:transparent transparent #587db5;
+    width:50px;
+    top:25px;
+    right: -63px;
+    border-width:0 25px 43px;
+}
+.hex3:before{
+    border-color:#587db5 transparent transparent;
+    top:42px;
+    left:-25px;
+    width:50px;
+    border-width:43px 25px 0;
+}
